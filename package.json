@@ -1,8 +1,13 @@
 {
   "name": "whatsapp-clone",
   "version": "0.1.0",
+<<<<<<< HEAD
   "homepage": "https://PremRathan2003.github.io/Whatsapp_clone",
   "private": false,
+=======
+  "private": false,
+  "homepage": "https://PremRathan2003.github.io/Whatsapp_clone"
+>>>>>>> 0ff8afd1415e1f4f300979e5a3fc6d0b26d543be
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
