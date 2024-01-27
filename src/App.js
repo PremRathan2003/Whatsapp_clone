@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import ChatScreen from './components/ChatScreen/ChatScreen'
+import ContactList from './components/ContactList/ContactList'
 
 function App() {
+  const [selectedContact, setSelectedContact] = useState(null);
+
+  const handleContactClick = (contact) => {
+    setSelectedContact(contact);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <ContactList onContactClick={handleContactClick} />
+      {selectedContact ? (
+        <ChatScreen selectedContact={selectedContact} />
+      ) : (
+        <div className="welcome-screen">
+          <h2>Welcome to WhatsApp Clone</h2>
+          <p>Select a contact to start chatting</p>
+        </div>
+      )}
     </div>
   );
 }
 
-export default App;
+export default App

@@ -1,0 +1,91 @@
+.contactList {
+    flex: 1;
+    max-width: 300px;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .contactList.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  .profile-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .search-bar {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding-left: 10px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 8px;
+    margin-left: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+  }
+  
+  .search-bar svg {
+    color: #666;
+  }
+  
+  .contactList h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contactList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contactList li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+  }
+  
+  .contactList li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .contact-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .contactList.dark-mode li {
+    border-bottom: 1px solid #555;
+  }
+  .menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .menu-item{
+    margin: 5px;
+    cursor: pointer;
+  }
+  .contact-pic-name{
+    display: flex;
+    align-items: center;
+  }
+  .contact-name{
+    font-weight: 500;
+    padding-left: 10px;
+
+  }
