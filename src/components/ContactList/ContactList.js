@@ -30,10 +30,10 @@ function ContactList({ onContactClick }) {
         <div className='menu-bar'>
            <img src = "https://res.cloudinary.com/dh9tpjqbw/image/upload/v1706279328/WhatsApp_Image_2024-01-25_at_10.49.15_PM_plkf2c-Circle_ddu9lg.jpg" alt = "profile" className='profile-photo' />
         <div className='menu-icons'>
-            <HiUserGroup size={20} className='menu-item' />
-            <IoLogoIonic size={20} className='menu-item'/>
-            <MdMessage size={20} className='menu-item' />
-            <CiMenuKebab size={20} className='menu-item'/>
+            <HiUserGroup size={23} className='menu-item' />
+            <IoLogoIonic size={23} className='menu-item'/>
+            <MdMessage size={23} className='menu-item' />
+            <CiMenuKebab size={23} className='menu-item'/>
         </div>
         </div>
       <div className="search-bar">
